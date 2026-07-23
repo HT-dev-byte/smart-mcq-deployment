@@ -47,13 +47,13 @@ model, tokenizer = load_resources()
 def predict_answer(prompt, option_a, option_b, option_c, option_d, option_e):
 
     text = (
-        f"Question: {prompt}\n"
-        f"A: {option_a}\n"
-        f"B: {option_b}\n"
-        f"C: {option_c}\n"
-        f"D: {option_d}\n"
-        f"E: {option_e}"
-    )
+    f"Question: {prompt}\n"
+    f"A: {option_a}\n"
+    f"B: {option_b}\n"
+    f"C: {option_c}\n"
+    f"D: {option_d}\n"
+    f"E: {option_e}"
+)
 
     seq = tokenizer.texts_to_sequences([text])
 
