@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 # Configuration
 # ==========================
 REPO_ID = "HT-Dev-Byte/smart-mcq-cnn"
-MAX_LEN = 128
+MAX_LEN = 256
 LABELS = ["A", "B", "C", "D", "E"]
 
 # ==========================
