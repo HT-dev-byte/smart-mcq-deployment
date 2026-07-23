@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+tensorflow==2.16.1
+transformers
+datasets
+evaluate
+torch
+accelerate
+wandb
+matplotlib
+streamlit
